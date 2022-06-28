@@ -4,6 +4,7 @@
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
+confirm("Use desktop for better experience :) \r\r\rby Ahmad Farhan");
 !(function($) {
   "use strict";
 
