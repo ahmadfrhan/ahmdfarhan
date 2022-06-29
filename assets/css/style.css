@@ -190,14 +190,14 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   box-sizing: border-box;
   border-radius: 6px;
   width: 75%;
+  padding: 0;
   margin: 0 auto;
 }
 .volume{
   width: 60%;
   height: 100%;
   background-color: #07c5cf;
-  box-sizing: border-box;
-  border-radius: 8px 0 0 8px;
+  border-radius: 5px 0 0 5px;
 }
 
 .bar-skill p{
@@ -206,6 +206,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   font-weight: 800;
   float: right;
   margin: 0 1.3vh;
+
 }
 .css{
   width: 45%;
