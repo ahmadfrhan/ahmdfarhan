@@ -197,7 +197,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   height: 100%;
   background-color: #07c5cf;
   box-sizing: border-box;
-  border-radius: 3px 0 0 3px;
+  border-radius: 6px 0 0 6px;
 }
 
 .bar-skill p{
