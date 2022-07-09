@@ -191,6 +191,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   border-radius: 6px;
   width: 75%;
   padding: 0;
+  
   margin: 0 auto;
 }
 .volume{
@@ -213,11 +214,21 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 
 .js{
-  width: 20%;
+  animation: bar-skillAnimation 2s ease-in-out alternate both;
 }
 
+.js:fo
 .php{
   width: 15%;
+}
+
+@keyframes bar-skillAnimation {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 20%;
+  }
 }
 
 /* Mobile Navigation */
@@ -416,12 +427,6 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   #hero .hero-img img {
     width: 70%;
   }
-}
-
-@media (max-width: 575px) {
-  #hero .hero-img img {
-    width: 80%;
-  }
 
   .bar-skill{
     width: 100%;
@@ -432,6 +437,14 @@ h1, h2, h3, h4, h5, h6, .font-primary {
     font-size: 16px;
     margin-top: 5px;
   }
+}
+
+@media (max-width: 575px) {
+  #hero .hero-img img {
+    width: 80%;
+  }
+
+
 }
 
 @-webkit-keyframes up-down {
